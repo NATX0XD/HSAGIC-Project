@@ -1,0 +1,61 @@
+[
+    {
+        "id": 1,
+        "name": "commercial_invoice_Q3.pdf",
+        "size": "1.2 MB",
+        "date": "Oct 12, 2026",
+        "type": "pdf"
+    },
+    {
+        "id": 2,
+        "name": "container_packing_list.xlsx",
+        "size": "3.4 MB",
+        "date": "Oct 10, 2026",
+        "type": "spreadsheet"
+    },
+    {
+        "id": 3,
+        "name": "bill_of_lading_9982.jpg",
+        "size": "4.1 MB",
+        "date": "Oct 08, 2026",
+        "type": "image",
+        "previewUrl": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?q=80&w=600&auto=format&fit=crop"
+    },
+    {
+        "id": 4,
+        "name": "customs_declaration_form.pdf",
+        "size": "850 KB",
+        "date": "Oct 05, 2026",
+        "type": "pdf"
+    },
+    {
+        "id": 5,
+        "name": "product_certificates.zip",
+        "size": "12.5 MB",
+        "date": "Sep 28, 2026",
+        "type": "archive"
+    },
+    {
+        "id": 6,
+        "name": "certificate_of_origin.pdf",
+        "size": "940 KB",
+        "date": "Sep 22, 2026",
+        "type": "pdf"
+    },
+    {
+        "id": 7,
+        "name": "warehouse_receipt.jpg",
+        "size": "2.8 MB",
+        "date": "Sep 20, 2026",
+        "type": "image",
+        "previewUrl": "https://images.unsplash.com/photo-1586528116311-ad8ed7e66364?q=80&w=600&auto=format&fit=crop"
+    },
+    {
+        "id": 8,
+        "name": "shipping_label_scan.png",
+        "size": "1.1 MB",
+        "date": "Sep 15, 2026",
+        "type": "image",
+        "previewUrl": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?q=80&w=600&auto=format&fit=crop"
+    }
+]

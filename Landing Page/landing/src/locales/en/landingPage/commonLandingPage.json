@@ -1,0 +1,73 @@
+{
+  "sectionHero": {
+    "title": {
+      "word1": "AI-Powered",
+      "word2Color": "Customs",
+      "word3": "Classification"
+    },
+    "subTitle": "Get accurate HS codes and tariff classifications instantly.  Upload product images or describe your goods - our AI will provide precise customs codes and duty rates.",
+    "buttonAction": "Try for Free",
+    "buttonDefault": "View Demo",
+    "stats": {
+      "item1": "Accuracy Rate",
+      "item2": "Classifications Daily",
+      "item3": "AI Support"
+    }
+  },
+  "sectionFeature": {
+    "title": "Powerful AI Features",
+    "subTitle": " Everything you need for accurate customs classification",
+    "feature1": {
+      "title": " AI Image Recognition",
+      "subTitle": "Upload product images and get instant HS code classification using advanced AI vision technology powered by neural networks."
+    },
+    "feature2": {
+      "title": "Smart Chat Interface",
+      "subTitle": "Describe your products in natural language and receive accurate customs codes with AI-powered explanations."
+    },
+    "feature3": {
+      "title": " Lightning Fast AI",
+      "subTitle": "Get HS codes, duty rates, and import/export requirements in seconds using our optimized AI algorithms."
+    }
+  },
+  "sectionHighlights": {
+    "title": "Experience the Future of Trade",
+    "subTitle": "Powered by cutting-edge AI technology, our system learns and adapts to provide increasingly accurate classifications.",
+    "highlights1": {
+      "title": "Neural Processing",
+      "subTitle": "Advanced deep learning models trained on millions of trade classifications"
+    },
+    "highlights2": {
+      "title": "AI Compliance",
+      "subTitle": "Automatically updated with latest regulations using machine learning"
+    },
+    "highlights3": {
+      "title": "Smart Integration",
+      "subTitle": "Seamless API integration with intelligent error handling"
+    }
+  },
+  "sectionSupport": {
+    "title": "AI-Powered Support",
+    "subTitle": "Get intelligent help whenever you need it",
+    "support1": {
+      "title": "Smart Documentation",
+      "subTitle": "AI-generated guides and interactive API documentation that adapts to your use case and provides personalized examples.",
+      "buttonAction": "Explore AI Docs →"
+    },
+    "support2": {
+      "title": "AI Expert Support",
+      "subTitle": "Our AI assistants work alongside customs experts to provide instant, accurate answers to complex trade questions.",
+      "buttonAction": "Chat with AI Support →"
+    }
+  },
+  "sectionPartners": {
+    "title": "Trusted by AI-Forward Companies",
+    "subTitle": "Join thousands of businesses leveraging AI for customs"
+  },
+  "sectionCTA": {
+    "title": "Ready to Transform Your Trade with AI?",
+    "subTitle": "Join the AI revolution in customs classification. Start your intelligent trade journey today.",
+    "buttonAction": "Start AI Trial",
+    "buttonDefault": "Subscription  AI"
+  }
+}

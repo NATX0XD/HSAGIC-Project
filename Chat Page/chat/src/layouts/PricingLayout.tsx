@@ -41,7 +41,7 @@ export default function PricingLayout({
                         className="flex items-center gap-2 px-5 py-2.5 rounded-full bg-white/70 hover:bg-white/90 backdrop-blur-xl border border-white/60 shadow-[0_4px_20px_rgb(0,0,0,0.05)] text-slate-700 font-semibold text-sm transition-all hover:-translate-y-0.5"
                     >
                         <HiOutlineArrowLeft className="w-4 h-4" />
-                        Back to HSAGIC
+                        Back to AI Assistant
                     </Link>
                 </motion.div>
 
@@ -51,7 +51,7 @@ export default function PricingLayout({
                     transition={{ duration: 0.5, ease: "easeOut", delay: 0.1 }}
                     className="pointer-events-auto flex items-center gap-2 px-5 py-2.5 rounded-full bg-white/40 backdrop-blur-md border border-white/40 shadow-[0_4px_20px_rgb(0,0,0,0.03)] text-slate-500 font-bold tracking-tight"
                 >
-                    <span className="text-blue-500">⚛</span> HSAGIC Pricing
+                    <span className="text-blue-500">⚛</span> <a href="https://design2deploy-site.vercel.app/en" target="_blank" rel="noopener noreferrer" className="hover:text-violet-600 transition-colors">DESIGN TO DEPLOY</a> Pricing
                 </motion.div>
             </nav>
 

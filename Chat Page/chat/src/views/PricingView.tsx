@@ -10,13 +10,13 @@ export default function PricingView() {
             {/* Header */}
             <div className="text-center mb-6 space-y-2">
                 <div className="inline-flex items-center justify-center px-4 py-1 rounded-full bg-emerald-50 text-emerald-600 text-xs font-bold border border-emerald-100 shadow-sm backdrop-blur-sm">
-                    Upgrade your HSAGIC workspace
+                    Upgrade your AI workspace
                 </div>
                 <h1 className="text-2xl sm:text-4xl font-extrabold text-[#1e293b] tracking-tight">
                     Transparent pricing, <span className="font-serif italic font-normal text-slate-500">with top tier AI partner</span>
                 </h1>
                 <p className="text-[#64748b] text-[15px] sm:text-base max-w-2xl mx-auto">
-                    Transparent pricing tailored to your logistics needs, ensuring affordability without compromising on accuracy.
+                    Transparent pricing tailored to your needs, ensuring affordability without compromising on performance.
                 </p>
             </div>
 
@@ -32,7 +32,7 @@ export default function PricingView() {
 
                         <div>
                             <h3 className="text-xl font-bold text-slate-900 mb-1">
-                                HSAGIC <span className="italic font-serif font-medium text-slate-500">Free</span>
+                                AI <span className="italic font-serif font-medium text-slate-500">Free</span>
                             </h3>
                             <p className="text-sm text-slate-500">Essential tools for individuals</p>
                         </div>
@@ -50,7 +50,7 @@ export default function PricingView() {
 
                         <div className="pt-4 border-t border-slate-100 space-y-3">
                             {[
-                                "Basic HS Code Lookup",
+                                "Basic AI Assistance",
                                 "10 Text prompts per day",
                                 "Standard document analysis",
                                 "Community support"
@@ -91,13 +91,13 @@ export default function PricingView() {
 
                             <div>
                                 <h3 className="text-xl font-bold text-slate-900 mb-1">
-                                    HSAGIC <span className="italic font-serif font-medium text-slate-500">Pro</span>
+                                    DESIGN TO DEPLOY <span className="italic font-serif font-medium text-slate-500">Pro</span>
                                 </h3>
                                 <p className="text-sm text-slate-500">Advanced AI features for professionals</p>
                             </div>
 
                             <button className="w-full py-2 px-4 rounded-full bg-[#6c8cfb] text-white font-bold text-sm hover:bg-[#5a7bed] transition-colors shadow-md shadow-blue-200">
-                                Get HSAGIC Pro
+                                Get Pro Plan
                             </button>
 
                             <div className="flex items-baseline gap-1 mt-4">
@@ -176,7 +176,7 @@ export default function PricingView() {
             <div className="mt-8 text-center">
                 <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white border border-slate-100 shadow-sm text-xs font-medium text-slate-500">
                     <span className="text-green-500 text-lg">🍃</span>
-                    HSAGIC Pro contributes 1% of your subscription to remove CO₂ from the atmosphere.
+                    Our Pro plan contributes 1% of your subscription to remove CO₂ from the atmosphere.
                 </div>
             </div>
 

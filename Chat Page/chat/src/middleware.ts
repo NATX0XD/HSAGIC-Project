@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 
 /**
  * ============================================================
- * HSAGIC Authentication Middleware
+ * DESIGN TO DEPLOY Authentication Middleware
  * ============================================================
  *
  * This middleware protects all routes and redirects
@@ -45,7 +45,7 @@ export function middleware(request: NextRequest) {
     // ============================================================
     if (REQUIRE_AUTH) {
         // Check for the auth token cookie
-        const authToken = request.cookies.get("hsagic-auth-token");
+        const authToken = request.cookies.get("d2d-auth-token");
 
         // If no auth token present, redirect to /login
         if (!authToken?.value) {

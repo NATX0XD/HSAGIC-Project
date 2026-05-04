@@ -272,7 +272,7 @@ export const useChatStore = create<ChatStore>()(
             },
         }),
         {
-            name: 'hsagic-chat-store', // unique name for localStorage key
+            name: 'd2d-chat-store', // unique name for localStorage key
         }
     )
 );

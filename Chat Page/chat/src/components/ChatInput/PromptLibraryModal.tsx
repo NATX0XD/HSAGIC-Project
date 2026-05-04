@@ -10,43 +10,43 @@ interface PromptLibraryModalProps {
 }
 
 const libraryCategories = [
-    "Basic Search",
-    "Tariff Calculation",
-    "Invoice Parsing",
-    "Customs Documentation",
-    "Compliance Check"
+    "Content Creation",
+    "Code & Dev",
+    "Business Analysis",
+    "Daily Tasks",
+    "Creative Writing"
 ];
 
 const libraryContent: Record<string, { title: string; description: string; prompts: string[] }> = {
-    "Basic Search": {
-        title: "Basic HS Code Search",
-        description: "Quickly find the standard 6-digit or country-specific 8/10-digit HS codes for general items.",
-        prompts: ["Find the HS code for [Product, e.g., smart watches]", "Classify this item: [Detailed Description]", "What is the tariff chapter for [Category]?"]
+    "Content Creation": {
+        title: "Content Creation",
+        description: "Generate engaging social media posts, blog outlines, and marketing copy with ease.",
+        prompts: ["Write a 300-word blog post about [Topic]", "Generate 5 catchy Instagram captions for [Product]", "Draft a newsletter announcing [New Feature]"]
     },
-    "Tariff Calculation": {
-        title: "Tariff Calculation",
-        description: "Calculate expected import duties, taxes, and fees based on origin, destination, and product value.",
-        prompts: ["Calculate import tax for [Product] from [Country A] to [Country B] valued at [$X]", "What are the ad valorem duties for HS Code [XXXX.XX] into the EU?", "List any anti-dumping duties currently active for [Product] imported to [Country]."]
+    "Code & Dev": {
+        title: "Code & Development",
+        description: "Get help with coding, debugging, refactoring, and technical architecture.",
+        prompts: ["Refactor this function for better readability: [Code Snippet]", "Explain how [Tech/Library] works in simple terms.", "Write a unit test for this utility: [Code]"]
     },
-    "Invoice Parsing": {
-        title: "Invoice Parsing",
-        description: "Extract line items and match them to HS codes automatically from document text.",
-        prompts: ["Please parse this list of items into HS codes: [List]", "Extract the commercial description and suggest HS codes from the attached text.", "Identify potential classification risks in this invoice line item: [Item Description]"]
+    "Business Analysis": {
+        title: "Business Analysis",
+        description: "Analyze data, brainstorm business strategies, and draft professional reports.",
+        prompts: ["Perform a SWOT analysis for [Company/Project]", "Draft a project proposal for [Objective]", "List 5 potential growth strategies for [Industry]"]
     },
-    "Customs Documentation": {
-        title: "Customs Documentation",
-        description: "Generate drafts for customs declarations, certificates of origin, and compliance forms.",
-        prompts: ["Draft a commercial description for customs entry for [Product]", "What forms are needed to clear [Product] through US Customs?", "Generate a template for a Certificate of Origin for [Country]"]
+    "Daily Tasks": {
+        title: "Daily Productivity",
+        description: "Organize your day, draft emails, and manage your schedule more effectively.",
+        prompts: ["Summarize these meeting notes: [Notes]", "Draft a polite follow-up email to [Person]", "Create a weekly meal plan for [Dietary Preference]"]
     },
-    "Compliance Check": {
-        title: "Compliance Check",
-        description: "Check items against restricted lists, quota limits, and regulatory body requirements (FDA, EPA, etc).",
-        prompts: ["Are there FDA requirements for importing [Product]?", "Check if [Product/HS Code] is bound by any EU import quotas.", "What are the labeling requirements for [Product] in [Country]?"]
+    "Creative Writing": {
+        title: "Creative Writing",
+        description: "Brainstorm story ideas, write poetry, or draft creative narratives.",
+        prompts: ["Write a short sci-fi story starting with [Sentence]", "Draft a poem about [Theme]", "Help me develop a character background for [Character Name]"]
     }
 };
 
 export default function PromptLibraryModal({ isOpen, onOpenChange, onSelectPrompt }: PromptLibraryModalProps) {
-    const [selectedCategory, setSelectedCategory] = useState("Basic Search");
+    const [selectedCategory, setSelectedCategory] = useState("Content Creation");
 
     return (
         <Modal
@@ -70,7 +70,7 @@ export default function PromptLibraryModal({ isOpen, onOpenChange, onSelectPromp
                         <ModalHeader className="flex flex-col gap-1 pt-5 px-6">
                             <h2 className="text-[18px] font-extrabold text-slate-900 leading-tight tracking-tight">Prompt Library</h2>
                             <p className="text-[13px] font-medium text-slate-500 mt-0.5">
-                                Browse predefined templates to get the most accurate logistics answers.
+                                Browse predefined templates to get the most out of our AI.
                             </p>
                         </ModalHeader>
                         <ModalBody className="flex flex-row">

@@ -334,8 +334,8 @@ export default function Sidebar({ isOpen, onToggle }: SidebarProps) {
                                     <path d="M2 12L12 17L22 12" className="stroke-violet-500" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                                 </svg>
                             </div>
-                            <span className="text-xl font-bold tracking-tight text-slate-800">
-                                HSAGIC
+                            <span className="text-[18px] font-bold tracking-tight text-slate-800 uppercase leading-tight">
+                                Design <br/> <span className="text-violet-600">to Deploy</span>
                             </span>
                         </div>
                     )}
@@ -784,6 +784,19 @@ export default function Sidebar({ isOpen, onToggle }: SidebarProps) {
                             </div>
                         </PopoverContent>
                     </Popover>
+                </div>
+
+                {/* Credit Link */}
+                <div className="px-6 py-4 mt-auto border-t border-slate-100/50">
+                    <a 
+                        href="https://design2deploy-site.vercel.app/en" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="flex flex-col gap-0.5 group"
+                    >
+                        <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider group-hover:text-slate-500 transition-colors">Powered by</span>
+                        <span className="text-[12px] font-extrabold text-slate-700 group-hover:text-violet-600 transition-colors">DESIGN TO DEPLOY</span>
+                    </a>
                 </div>
             </aside>
 

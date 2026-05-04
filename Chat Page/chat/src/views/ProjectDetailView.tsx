@@ -170,9 +170,9 @@ export default function ProjectDetailView({ projectId }: ProjectDetailViewProps)
                                             <HiOutlinePaperClip size={18} className="text-white transform -rotate-45" />
                                         </div>
                                     </div>
-                                    <h2 className="text-[17px] font-semibold text-slate-800 mb-2">Give HSAGIC more context</h2>
+                                    <h2 className="text-[17px] font-semibold text-slate-800 mb-2">Give AI more context</h2>
                                     <p className="text-[14px] text-slate-500 max-w-[420px] mb-8 leading-relaxed">
-                                        Upload sources, link drives, or connect apps like Slack to give HSAGIC deeper context about your project.
+                                        Upload sources, link drives, or connect apps like Slack to give our AI deeper context about your project.
                                     </p>
                                     <Button
                                         className="bg-white text-slate-800 font-medium px-6 shadow-sm border border-slate-200 rounded-full hover:bg-slate-50"

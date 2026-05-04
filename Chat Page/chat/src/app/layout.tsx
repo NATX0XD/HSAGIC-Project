@@ -3,9 +3,9 @@ import { Providers } from "./providers";
 import "../style/globals.css";
 
 export const metadata: Metadata = {
-    title: "HSAGIC — Smart HS Code & Logistics Assistant",
+    title: "DESIGN TO DEPLOY — AI Powered Assistant",
     description:
-        "AI-powered assistant for HS code classification, customs regulations, and logistics document management.",
+        "Premium AI-powered assistant for design, development, and intelligent project management.",
 };
 
 export default function RootLayout({

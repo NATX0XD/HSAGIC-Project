@@ -25,7 +25,7 @@ export default function AuthLayout({ children }: AuthLayoutProps) {
                         <TbPackageExport size={26} className="text-white" />
                     </div>
                     <span className="text-2xl font-bold tracking-tight text-[var(--text-primary)]">
-                        HS<span className="text-[var(--accent)]">AGIC</span>
+                        DESIGN <span className="text-[var(--accent)]">TO DEPLOY</span>
                     </span>
                 </div>
 
@@ -41,7 +41,7 @@ export default function AuthLayout({ children }: AuthLayoutProps) {
 
                 {/* Footer */}
                 <p className="mt-8 text-center text-xs text-[var(--text-muted)] animate-fade-in" style={{ animationDelay: "0.3s" }}>
-                    © 2026 HSAGIC. Smart HS Code & Logistics Intelligence.
+                    © 2026 <a href="https://design2deploy-site.vercel.app/en" target="_blank" rel="noopener noreferrer" className="hover:text-[var(--accent)] font-semibold transition-colors">DESIGN TO DEPLOY</a>. Intelligent AI Assistant.
                 </p>
             </div>
         </div>

@@ -32,7 +32,7 @@ export default function LoginView() {
         setIsLoading(true);
         await new Promise((resolve) => setTimeout(resolve, 800));
 
-        document.cookie = `hsagic-auth-token=mock-jwt-token-${Date.now()}; path=/; max-age=${60 * 60 * 24 * 7}; samesite=lax`;
+        document.cookie = `d2d-auth-token=mock-jwt-token-${Date.now()}; path=/; max-age=${60 * 60 * 24 * 7}; samesite=lax`;
 
         setIsLoading(false);
 
@@ -61,7 +61,7 @@ export default function LoginView() {
                     Welcome back
                 </h2>
                 <p className="text-base text-slate-500 font-medium">
-                    Sign in to access your HSAGIC workspace
+                    Sign in to access your AI workspace
                 </p>
             </div>
 

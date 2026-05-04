@@ -11,32 +11,32 @@ interface Prompt {
 
 const prompts: Prompt[] = [
     {
-        label: "Classify Electronics",
-        query: "Help me classify electronic components under HS codes",
+        label: "Write Code",
+        query: "Help me write a React component for a dashboard",
     },
     {
-        label: "Check Import Tax",
-        query: "What are the import tax rates for my product?",
+        label: "Summarize Text",
+        query: "Can you summarize this long article for me?",
     },
     {
-        label: "Upload Invoice",
-        query: "I want to upload a commercial invoice for HS code extraction",
+        label: "Brainstorm Ideas",
+        query: "Help me brainstorm 5 marketing ideas for my startup",
     },
     {
-        label: "HS Code Lookup",
-        query: "Look up HS code for a specific product",
+        label: "Draft Email",
+        query: "Draft a professional email to a potential client",
     },
     {
-        label: "Trade Regulations",
-        query: "What are the trade regulations for importing to Thailand?",
+        label: "Fix Bugs",
+        query: "Help me debug this JavaScript error",
     },
     {
-        label: "Compliance Check",
-        query: "Check if my shipment is compliant with customs regulations",
+        label: "Plan Schedule",
+        query: "Create a study plan for learning Python in 30 days",
     },
     {
-        label: "Generate Docs",
-        query: "Generate customs declaration documents",
+        label: "Creative Story",
+        query: "Write a short science fiction story about Mars",
     },
 ];
 

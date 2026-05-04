@@ -207,7 +207,7 @@ export function SettingsModal({ isOpen, onClose }: SettingsModalProps) {
                                         <div className="flex items-center justify-between py-1">
                                             <div className="flex flex-col gap-1 pr-6">
                                                 <span className="text-[14px] font-medium text-slate-700">Responses</span>
-                                                <span className="text-[12px] text-slate-500 leading-snug">Get notified when HSAGIC responds to requests that take time, like research or image generation.</span>
+                                                <span className="text-[12px] text-slate-500 leading-snug">Get notified when our AI responds to requests that take time, like research or image generation.</span>
                                             </div>
                                             <Select
                                                 size="sm" variant="bordered"
@@ -287,7 +287,7 @@ export function SettingsModal({ isOpen, onClose }: SettingsModalProps) {
                                         <div className="flex items-center justify-between py-1">
                                             <div className="flex flex-col gap-1 pr-6">
                                                 <span className="text-[14px] font-medium text-slate-700">Recommendations</span>
-                                                <span className="text-[12px] text-slate-500 leading-snug">Stay in the loop on new tools, tips, and features from HSAGIC.</span>
+                                                <span className="text-[12px] text-slate-500 leading-snug">Stay in the loop on new tools, tips, and features from our AI.</span>
                                             </div>
                                             <Select
                                                 size="sm" variant="bordered"

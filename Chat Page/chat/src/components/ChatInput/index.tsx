@@ -24,19 +24,19 @@ import SettingsPopover from "./SettingsPopover";
 import PromptLibraryModal from "./PromptLibraryModal";
 
 const randomPrompts = [
-    "What is the HS code for lithium-ion batteries?",
-    "Calculate import tax for electronics to the EU.",
-    "How to classify mixed auto parts?",
-    "Explain the customs procedure for returning defective goods.",
-    "What are the documentation requirements for exporting textiles?",
-    "Determine the origin criteria for a manufactured good under USMCA.",
+    "Write a clean and efficient React component for a data table.",
+    "Help me brainstorm features for a new SaaS application.",
+    "Explain how to optimize database queries for large datasets.",
+    "Draft a professional email for a project proposal.",
+    "How do I set up a CI/CD pipeline for a Next.js project?",
+    "Summarize the latest trends in artificial intelligence.",
 ];
 
 const models = [
     { key: "gpt4", label: "GPT-4", icon: "" },
     { key: "claude", label: "Claude 3", icon: "" },
     { key: "gemini", label: "Gemini Pro", icon: "" },
-    { key: "hsagic", label: "HSAGIC Pro", icon: "" },
+    { key: "d2d", label: "D2D-AI", icon: "" },
 ];
 
 export default function ChatInput({
@@ -47,7 +47,7 @@ export default function ChatInput({
     variant?: "default" | "compact"
 }) {
     const [message, setMessage] = useState("");
-    const [selectedModel, setSelectedModel] = useState("hsagic");
+    const [selectedModel, setSelectedModel] = useState("d2d");
 
     // Attachment state
     const [attachment, setAttachment] = useState<File | null>(null);

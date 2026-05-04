@@ -92,7 +92,7 @@ export function ProfileModal({ isOpen, onClose, userProfile, onSave }: ProfileMo
                             </div>
 
                             <p className="text-[12px] text-slate-500 text-center mt-6 leading-relaxed px-2">
-                                Your profile helps people recognize you. Your name and username are also used in the HSAGIC app.
+                                Your profile helps people recognize you. Your name and username are also used in the AI assistant.
                             </p>
 
                         </ModalBody>

@@ -78,7 +78,7 @@ export default function ChatMessage({ id, role, content, isEditable, attachment,
 
                 {/* Name / Role Label - optional */}
                 <div className="text-[12px] font-bold text-slate-400 px-1">
-                    {isUser ? "You" : "HSAGIC"}
+                    {isUser ? "You" : "AI"}
                 </div>
 
                 {/* The Bubble content */}

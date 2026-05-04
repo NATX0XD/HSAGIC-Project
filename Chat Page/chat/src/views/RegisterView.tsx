@@ -43,7 +43,7 @@ export default function RegisterView() {
         setIsLoading(true);
         await new Promise((resolve) => setTimeout(resolve, 1000));
 
-        document.cookie = `hsagic-auth-token=mock-jwt-token-${Date.now()}; path=/; max-age=${60 * 60 * 24 * 7}; samesite=lax`;
+        document.cookie = `d2d-auth-token=mock-jwt-token-${Date.now()}; path=/; max-age=${60 * 60 * 24 * 7}; samesite=lax`;
 
         setIsLoading(false);
         router.push("/");
@@ -80,7 +80,7 @@ export default function RegisterView() {
                     Create account
                 </h2>
                 <p className="text-base text-slate-500 font-medium">
-                    Join HSAGIC for smarter logistics management
+                    Join us for smarter project management
                 </p>
             </div>
 

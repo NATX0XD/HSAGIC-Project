@@ -104,18 +104,18 @@ export default function HomeView() {
                         <h1 className="text-4xl md:text-5xl font-extrabold text-slate-900 mb-4 tracking-tight">
                             {greeting}, User{" "}
                             <motion.span
-                                animate={{ y: [0, -4, 0] }}
+                                animate={{ scale: [1, 1.2, 1], rotate: [0, 10, 0] }}
                                 transition={{ duration: 2, ease: "easeInOut", repeat: Infinity }}
                                 className="inline-block"
                             >
-                                👋
+                                ✨
                             </motion.span>
                         </h1>
                         <p className="text-lg text-slate-500 max-w-md mx-auto leading-relaxed font-medium">
                             Choose a prompt below or write your own to start
                             <br />
                             chatting with{" "}
-                            <span className="font-bold text-violet-600">HSAGIC</span>
+                            <span className="font-bold text-violet-600">AI</span>
                         </p>
                     </div>
 
